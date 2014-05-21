@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/AFNetworking/AFHTTPRequestOperationLogger.git', :tag => '1.0.0' }
   s.source_files = 'AFHTTPRequestOperationLogger.{h,m}'
   s.requires_arc = true
+  s.ios.deployment_target = '5.0'
 
   s.dependency 'AFNetworking', '~> 1.0'
 end
